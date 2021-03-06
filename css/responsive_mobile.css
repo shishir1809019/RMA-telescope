@@ -1,0 +1,14 @@
+@media only screen and (min-width: 480px) and (max-width: 765px){
+
+  /*  RMA_telescope section */
+    .navbar button {
+        margin:auto;
+    }
+    .ml-5, .mx-5 {
+        margin-left: 1rem !important;
+    }
+    #telescope .bold {
+        font-size: 90px;
+    }
+    
+}

@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* navbar section */
+.navbar-toggler {
+  margin-top: 30px;
+  margin-right: 45px;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.01) !important;
+}
+.navbar ul {
+  margin-left: 65px;
+}
+.navbar ul li a {
+  color: white !important;
+  font-size: 14px;
+  font-family: Poppins-Bold;
+  margin-left: 15px;
+}
+.navbar ul li a:hover {
+  color: #81c6bc !important;
+}
+.navbar ul li a:active {
+  color: #81c6bc !important;
+  text-decoration: underline;
+}
+.navbar-toggler-icon {
+  color: white !important;
+}
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 1);
+}
+.dropdown-menu {
+  background-color: transparent !important;
+}
+.dropdown-menu a {
+  background-color: transparent !important;
+}
+
+
+.btn1 {
+  font-family: Montserrat-SemiBold;
+  font-size: 11px;
+  border: 0px;
+}
+.btn1 {
+  margin-left: 105px;
+  background-color: #6c9e9f;
+}
+.first_page_para_div button a {
+  text-decoration: none;
+  color: white;
+}
+.btn-group-sm > .btn,
+.btn-sm {
+  padding: 0.5rem 1.25rem;
+  line-height: 1.5;
+  border-radius: 7.2rem;
+}
+
+
+/* RMA_telescope section */
+  #telescope ul{list-style: none;}
+  #telescope  a{color: #fff; transition: 0.3s;}
+  #telescope a:hover{background: #26292c; color: #fff;}
+
+  #telescope {
+    position: relative;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 850px;
+     }
+  #telescope .primary-overly {
+      background: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+
+  #telescope .small{font-size: 14px;}
+  #telescope .bold{font-weight: 600;}
+  #telescope .deadline{
+        font-weight: 600;
+        background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 0, 0));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+  }
+
+
+
